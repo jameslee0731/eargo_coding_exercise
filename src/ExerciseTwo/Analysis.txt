@@ -1,0 +1,9 @@
+1. How to approach problem
+    since the input_table and output_table are given,
+    what we need to do is to
+        1. sum the number of each page
+        2. replace ?? with actual record, i.e. update the value in output_table using the previous
+    thus, we use sum function to count the total number based on page, then use update sql complete replace step
+2. efficient analysis
+    we need to scan the total table to get the sum result for replace
+3. comment
